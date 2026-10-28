@@ -1,0 +1,148 @@
+INSTRUMENTATION_STATUS: class=com.example.hyundai_hackathon.DriveFlowTest
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=9
+INSTRUMENTATION_STATUS: stream=
+com.example.hyundai_hackathon.DriveFlowTest:
+INSTRUMENTATION_STATUS: test=demoRecordsAcrossBackgroundAndOpensItsEventDetails
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=com.example.hyundai_hackathon.DriveFlowTest
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=9
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: test=demoRecordsAcrossBackgroundAndOpensItsEventDetails
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: class=com.example.hyundai_hackathon.DriveStoreTest
+INSTRUMENTATION_STATUS: current=2
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=9
+INSTRUMENTATION_STATUS: stream=
+com.example.hyundai_hackathon.DriveStoreTest:
+INSTRUMENTATION_STATUS: test=interruptedCheckpointIsRecoveredOnceWithoutPretendingToResume
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=com.example.hyundai_hackathon.DriveStoreTest
+INSTRUMENTATION_STATUS: current=2
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=9
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: test=interruptedCheckpointIsRecoveredOnceWithoutPretendingToResume
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: class=com.example.hyundai_hackathon.DriveStoreTest
+INSTRUMENTATION_STATUS: current=3
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=9
+INSTRUMENTATION_STATUS: stream=
+INSTRUMENTATION_STATUS: test=eventReviewTraceAndFeedbackSurviveSaving
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=com.example.hyundai_hackathon.DriveStoreTest
+INSTRUMENTATION_STATUS: current=3
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=9
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: test=eventReviewTraceAndFeedbackSurviveSaving
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: class=com.example.hyundai_hackathon.DriveStoreTest
+INSTRUMENTATION_STATUS: current=4
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=9
+INSTRUMENTATION_STATUS: stream=
+INSTRUMENTATION_STATUS: test=deletionRemovesOnlyTheChosenDrive
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=com.example.hyundai_hackathon.DriveStoreTest
+INSTRUMENTATION_STATUS: current=4
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=9
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: test=deletionRemovesOnlyTheChosenDrive
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: class=com.example.hyundai_hackathon.DriveStoreTest
+INSTRUMENTATION_STATUS: current=5
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=9
+INSTRUMENTATION_STATUS: stream=
+INSTRUMENTATION_STATUS: test=retentionRemovesOldRecordsWithoutInventingNewMeasurements
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=com.example.hyundai_hackathon.DriveStoreTest
+INSTRUMENTATION_STATUS: current=5
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=9
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: test=retentionRemovesOldRecordsWithoutInventingNewMeasurements
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: class=com.example.hyundai_hackathon.ExampleInstrumentedTest
+INSTRUMENTATION_STATUS: current=6
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=9
+INSTRUMENTATION_STATUS: stream=
+com.example.hyundai_hackathon.ExampleInstrumentedTest:
+INSTRUMENTATION_STATUS: test=useAppContext
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=com.example.hyundai_hackathon.ExampleInstrumentedTest
+INSTRUMENTATION_STATUS: current=6
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=9
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: test=useAppContext
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: class=com.example.hyundai_hackathon.VehicleBridgeTest
+INSTRUMENTATION_STATUS: current=7
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=9
+INSTRUMENTATION_STATUS: stream=
+com.example.hyundai_hackathon.VehicleBridgeTest:
+INSTRUMENTATION_STATUS: test=detailsRequireExplicitParkAndKnownUnrestrictedUx
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=com.example.hyundai_hackathon.VehicleBridgeTest
+INSTRUMENTATION_STATUS: current=7
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=9
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: test=detailsRequireExplicitParkAndKnownUnrestrictedUx
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: class=com.example.hyundai_hackathon.VehicleBridgeTest
+INSTRUMENTATION_STATUS: current=8
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=9
+INSTRUMENTATION_STATUS: stream=
+INSTRUMENTATION_STATUS: test=pleosExposesReadOnlyVehicleSignalsAndUxState
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=com.example.hyundai_hackathon.VehicleBridgeTest
+INSTRUMENTATION_STATUS: current=8
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=9
+INSTRUMENTATION_STATUS: stack=org.junit.AssumptionViolatedException: got: <false>, expected: is <true>
+	at org.junit.Assume.assumeThat(Assume.java:106)
+	at org.junit.Assume.assumeTrue(Assume.java:50)
+	at com.example.hyundai_hackathon.VehicleBridgeTest.pleosExposesReadOnlyVehicleSignalsAndUxState(VehicleBridgeTest.kt:37)
+
+INSTRUMENTATION_STATUS: stream=
+INSTRUMENTATION_STATUS: test=pleosExposesReadOnlyVehicleSignalsAndUxState
+INSTRUMENTATION_STATUS_CODE: -4
+INSTRUMENTATION_STATUS: class=com.example.hyundai_hackathon.VehicleBridgeTest
+INSTRUMENTATION_STATUS: current=9
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=9
+INSTRUMENTATION_STATUS: stream=
+INSTRUMENTATION_STATUS: test=parkedPleosCanRecordEvenWhenStationarySpeedTimestampStopsChanging
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=com.example.hyundai_hackathon.VehicleBridgeTest
+INSTRUMENTATION_STATUS: current=9
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=9
+INSTRUMENTATION_STATUS: stack=org.junit.AssumptionViolatedException: got: <false>, expected: is <true>
+	at org.junit.Assume.assumeThat(Assume.java:106)
+	at org.junit.Assume.assumeTrue(Assume.java:50)
+	at com.example.hyundai_hackathon.VehicleBridgeTest.parkedPleosCanRecordEvenWhenStationarySpeedTimestampStopsChanging(VehicleBridgeTest.kt:65)
+
+INSTRUMENTATION_STATUS: stream=
+INSTRUMENTATION_STATUS: test=parkedPleosCanRecordEvenWhenStationarySpeedTimestampStopsChanging
+INSTRUMENTATION_STATUS_CODE: -4
+INSTRUMENTATION_RESULT: stream=
+
+Time: 62.737
+
+OK (9 tests)
+
+
+INSTRUMENTATION_CODE: -1

@@ -1,0 +1,33 @@
+{
+  "date": "2026-10-28",
+  "unitTests": {
+    "passed": 14,
+    "failed": 0
+  },
+  "androidApi37": {
+    "passed": 7,
+    "skipped": 2,
+    "failed": 0
+  },
+  "pleosApi34": {
+    "storagePassed": 4,
+    "signalAndGuardPassed": 2,
+    "fullSuite": "interrupted at process startup (ANR)",
+    "stationaryRecording": "not completed: process startup/lifecycle timeout in this emulator"
+  },
+  "lint": {
+    "errors": 0,
+    "warnings": 16
+  },
+  "virtualConsole": {
+    "url": "http://127.0.0.1:8088/",
+    "dds": "OFFLINE",
+    "controlsSource": "default",
+    "bridgeReady": false
+  },
+  "notes": [
+    "No real-car road test",
+    "No FSD integration",
+    "Thresholds provisional"
+  ]
+}

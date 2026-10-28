@@ -1,0 +1,39 @@
+10-28 01:43:02.060   861 25600 I ActivityManager: dumpStackTraces nativepids=null
+10-28 01:43:02.060   861 25600 I ActivityManager: dumpStackTraces extraPids=null
+10-28 01:43:02.061   861 25600 I ActivityManager: Done dumping
+10-28 01:43:02.226   861 25600 E ActivityManager: ANR in com.example.hyundai_hackathon
+10-28 01:43:02.226   861 25600 E ActivityManager: PID: 24474
+10-28 01:43:02.226   861 25600 E ActivityManager: Reason: Process ProcessRecord{7fddf93 24474:com.example.hyundai_hackathon/u10a175} failed to complete startup
+10-28 01:43:02.226   861 25600 E ActivityManager: ErrorId: 10fdc7f6-5b8d-40b3-b189-a938aa23c9d5
+10-28 01:43:02.226   861 25600 E ActivityManager: Frozen: false
+10-28 01:43:02.226   861 25600 E ActivityManager: Load: 0.0 / 0.0 / 0.0
+10-28 01:43:02.226   861 25600 E ActivityManager: ----- Output from /proc/pressure/memory -----
+10-28 01:43:02.226   861 25600 E ActivityManager: some avg10=0.00 avg60=0.00 avg300=0.00 total=486264
+10-28 01:43:02.226   861 25600 E ActivityManager: full avg10=0.00 avg60=0.00 avg300=0.00 total=32727
+10-28 01:43:02.226   861 25600 E ActivityManager: ----- End output from /proc/pressure/memory -----
+10-28 01:43:02.226   861 25600 E ActivityManager: ----- Output from /proc/pressure/cpu -----
+10-28 01:43:02.226   861 25600 E ActivityManager: some avg10=85.81 avg60=86.05 avg300=85.22 total=1235587623
+10-28 01:43:02.226   861 25600 E ActivityManager: full avg10=0.00 avg60=0.00 avg300=0.00 total=0
+10-28 01:43:02.226   861 25600 E ActivityManager: ----- End output from /proc/pressure/cpu -----
+10-28 01:43:02.226   861 25600 E ActivityManager: ----- Output from /proc/pressure/io -----
+10-28 01:43:02.226   861 25600 E ActivityManager: some avg10=0.01 avg60=0.26 avg300=0.39 total=18387438
+10-28 01:43:02.226   861 25600 E ActivityManager: full avg10=0.00 avg60=0.00 avg300=0.00 total=1248336
+10-28 01:43:02.226   861 25600 E ActivityManager: ----- End output from /proc/pressure/io -----
+10-28 01:43:02.226   861 25600 E ActivityManager: 
+10-28 01:43:02.226   861 25600 E ActivityManager: CPU usage from 18187ms to -293ms ago (2026-10-28 01:42:39.962 to 2026-10-28 01:42:58.442):
+10-28 01:43:02.226   861 25600 E ActivityManager:   41% 24094/ai.umos.drivingview: 20% user + 21% kernel / faults: 25452 minor
+10-28 01:43:02.226   861 25600 E ActivityManager:   28% 446/android.hardware.sensors-service.multihal: 13% user + 14% kernel
+10-28 01:43:02.226   861 25600 E ActivityManager:   26% 7793/ai.umos.maps.android.navigation.app: 12% user + 14% kernel / faults: 3759 minor
+10-28 01:43:02.226   861 25600 E ActivityManager:   21% 10802/android.hardware.media.c2@1.0-service-goldfish: 9.3% user + 12% kernel / faults: 6205 minor
+10-28 01:43:02.226   861 25600 E ActivityManager:   22% 525/surfaceflinger: 9.1% user + 12% kernel / faults: 44 minor
+10-28 01:43:02.226   861 25600 E ActivityManager:   18% 1/init: 3.3% user + 15% kernel / faults: 2722 minor
+10-28 01:43:02.226   861 25600 E ActivityManager:   14% 185/carwatchdogd: 6.9% user + 7.3% kernel
+10-28 01:43:02.226   861 25600 E ActivityManager:   12% 861/system_server: 5.9% user + 6.2% kernel / faults: 1118 minor
+10-28 01:43:02.226   861 25600 E ActivityManager:   8.8% 462/android.hardware.graphics.composer3-service.ranchu: 4% user + 4.7% kernel / faults: 1 minor
+10-28 01:43:02.226   861 25600 E ActivityManager:   8% 171/servicemanager: 1.1% user + 6.8% kernel / faults: 273 minor
+10-28 01:43:02.226   861 25600 E ActivityManager: 99% TOTAL: 42% user + 49% kernel + 6.5% irq + 0.7% softirq
+10-28 01:43:02.226   861 25600 E ActivityManager: CPU usage from 1476149ms to 1476149ms ago (1969-12-31 16:00:00.000 to 1969-12-31 16:00:00.000) with 0% awake:
+10-28 01:43:02.226   861 25600 E ActivityManager: 0% TOTAL: 0% user + 0% kernel
+10-28 01:43:02.245   861 25600 I ActivityManager: Killing 24474:com.example.hyundai_hackathon/u10a175 (adj 0): bg anr
+10-28 01:43:02.328   861   966 W ActivityManager: Slow operation: 985ms so far, now at startProcess: asking zygote to start proc
+10-28 01:43:02.798   861   966 W ActivityManager: Slow operation: 1701ms so far, now at startProcess: returned from zygote!
